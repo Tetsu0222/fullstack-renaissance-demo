@@ -26,6 +26,25 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- バリデーション（@NotBlank, @NotNull等） -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+
+        <!-- Spring Data JPA（DB操作用） -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <!-- H2（テスト・開発用インメモリDB） -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
         <!-- JUnit（テスト用） -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

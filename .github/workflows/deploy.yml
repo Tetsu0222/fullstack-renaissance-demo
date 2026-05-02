@@ -19,7 +19,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Mavenテスト実行
-        run: mvn test
+        run: mvn clean test
 
   deploy:
     name: EC2へデプロイ
